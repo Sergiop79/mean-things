@@ -1,0 +1,12 @@
+//Variables
+@import "variables.scss";
+
+// Bootstrap
+@import "../../lib/bootstrap-sass/lib/bootstrap.scss";
+
+
+.banner {
+  position: relative;
+  top: -20px;
+  text-align: center;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "mean-things",
+  "version": "0.0.1",
+  "description": "MEAN experiment",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "@sergixnet",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "express": "^4.9.7",
+    "mongodb": "^1.4.19",
+    "socket.io": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "gulp": "^3.8.8",
+    "gulp-jshint": "^1.8.5",
+    "gulp-karma": "0.0.4",
+    "gulp-livereload": "^2.1.1",
+    "gulp-mocha": "^1.1.1",
+    "gulp-sass": "^1.2.0",
+    "gulp-watch": "^1.1.0",
+    "jshint-stylish": "^1.0.0",
+    "karma": "^0.12.24",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-jasmine": "^0.1.5",
+    "mocha": "^1.21.5",
+    "supertest": "^0.14.0",
+    "tiny-lr": "^0.1.4"
+  }
+}
